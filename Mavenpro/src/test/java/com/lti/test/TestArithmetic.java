@@ -20,6 +20,11 @@ public class TestArithmetic {
 		public void testSum() {
 			assertEquals(10,arth.sum(4, 6));
 		}
+		
+		@Test
+		public void testSub() {
+			assertEquals(5, arth.sub(5, 10));
+		}
 	
 	
 }
