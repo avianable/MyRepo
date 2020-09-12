@@ -23,13 +23,10 @@ public class TestArithmetic {
 		
 		@Test
 		public void testSub() {
-			assertEquals(50000, arth.sub(5, 10));
+			assertEquals(5, arth.sub(5, 10));
 		}
 		
-		@Test
-		public void testmult() {
-			assertEquals(5000, arth.mult(5, 10));
-		}
+	
 		
 	
 	
