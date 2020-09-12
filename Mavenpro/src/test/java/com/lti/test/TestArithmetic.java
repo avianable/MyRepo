@@ -18,17 +18,17 @@ public class TestArithmetic {
 		
 		@Test
 		public void testSum() {
-			assertEquals(10,arth.sum(4, 6));
+			assertEquals(0,arth.sum(4, 6));
 		}
 		
 		@Test
 		public void testSub() {
-			assertEquals(5, arth.sub(5, 10));
+			assertEquals(500, arth.sub(5, 10));
 		}
 		
 		@Test
 		public void testmult() {
-			assertEquals(5, arth.mult(5, 10));
+			assertEquals(500, arth.mult(5, 10));
 		}
 		
 	
