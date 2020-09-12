@@ -28,7 +28,7 @@ public class TestArithmetic {
 		
 		@Test
 		public void testmult() {
-			assertEquals(50, arth.sub(5, 10));
+			assertEquals(5, arth.mult(5, 10));
 		}
 		
 	
